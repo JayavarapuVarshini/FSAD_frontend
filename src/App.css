@@ -1,0 +1,16 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+button {
+  padding: 8px 16px;
+  background: #0077b6;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+input, select, textarea {
+  padding: 8px;
+  width: 200px;
+}

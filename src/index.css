@@ -1,0 +1,29 @@
+/* RESET EVERYTHING */
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* REMOVE VITE DEFAULT FLEX CENTER */
+body {
+  display: block;   /* 🔥 THIS FIXES YOUR ISSUE */
+  min-height: 100vh;
+}
+
+/* GLOBAL FIX */
+* {
+  box-sizing: border-box;
+}
+
+/* OPTIONAL CLEAN STYLES */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  font-family: inherit;
+}

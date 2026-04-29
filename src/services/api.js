@@ -1,7 +1,7 @@
 // src/services/api.js
 // Uses Vite proxy: /api → http://localhost:8081 (set in vite.config.js)
 
-const BASE_URL = "/api";
+const BASE_URL = import.meta.env.VITE_API_URL + "/api";
 
 const getToken = () => localStorage.getItem("token");
 
